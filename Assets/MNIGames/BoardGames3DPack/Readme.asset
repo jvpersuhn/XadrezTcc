@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 9047680be8936bd4fa36e1eb2b9b74a5, type: 3}
+  title: Board Games 3D Pack
+  sections:
+  - heading: What is Board Games 3D Pack?
+    text: We originally created Boargame 3D Pack to be only assets, high quality models
+      and textures. We received a lot of demands to have a working coded example of
+      the Chess mecanics. Sufficiantly enough, that decided to create an advanced
+      package putting the assets to use in a real Chess game implementation.
+    linkText: 
+    url: 
+  - heading: How do I use it?
+    text: We've written a detailed manual that explores all the available prefabs
+      and components that make up the mechanics in this pack.
+    linkText: Read the manual
+    url: file://\assets\Z3D\BoardGames\Chess\Documentation\GettingStartedBoardgame3DPack.pdf
+  - heading: Demo
+    text: You can try the game!
+    linkText: Itch.io page
+    url: https://z3nder.itch.io/board-games-3d-pack
+  - heading: Got feedback?
+    text: 'Let us know what you think or ask any questions you might have on our itch.io
+      community page. '
+    linkText: Forum Thread
+    url: https://z3nder.itch.io/board-games-3d-pack/community
+  loadedLayout: 1
