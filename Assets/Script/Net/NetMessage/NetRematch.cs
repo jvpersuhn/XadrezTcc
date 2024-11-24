@@ -14,6 +14,7 @@ public class NetRematch : NetMessage
     public NetRematch(DataStreamReader reader)
     {
         Code = OpCode.REMATCH;
+        Deserialize(reader);
     }
 
     public override void Serialize(ref DataStreamWriter writer)
